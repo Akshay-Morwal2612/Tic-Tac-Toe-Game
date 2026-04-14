@@ -1,0 +1,56 @@
+/* CONNECTED WITH Tic-Tac-Toe.html */
+body{
+  background-color: #0ddd;
+  margin: 0;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.box{
+  height: 30vmin;
+  width: 30vmin;
+  font-size: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdd;
+  font-weight: bold;
+}
+
+.game{
+  display: grid;
+  grid-template-columns: repeat(3,30vmin);
+  justify-content: center;
+}
+
+.container{
+  text-align: center;
+}
+
+#reset-Btn{
+  color: #2dgd;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 9px;
+  box-shadow: 0.05px;
+  background-color:#191913;
+  color: #fff;
+}
+
+/* #reset-Btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+} */
